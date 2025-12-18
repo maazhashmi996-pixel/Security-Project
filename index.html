@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Aman Security</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
@@ -47,6 +49,111 @@
         <span class="arrow left">&#10094;</span>
         <span class="arrow right">&#10095;</span>
     </section>
+    <!-- ABOUT -->
+    <section class="about">
+        <img src="Assets/Logo.png" alt="Security Team">
+        <div>
+            <h2>About Al‑Aman Security</h2>
+            <p>Al‑Aman Security Services (Pvt) Ltd. was established in 2006 to provide integrated security solutions
+                across Pakistan. With over 30 years of management experience, we ensure safety, integrity and
+                professionalism.</p>
+            <button onclick="document.getElementById('about-full').scrollIntoView({behavior:'smooth'})">Read
+                More</button>
+        </div>
+    </section>
+
+
+
+    <!-- SERVICES -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="Assets/Pics/Service 1.jpg">
+                <div class="content">
+                    <h3>Guarding Division</h3>
+                    <p>Professional armed & unarmed guards, event security and VIP protection.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="Assets/Pics/Service 02.jpeg">
+                <div class="content">
+                    <h3>Verification Services</h3>
+                    <p>Background checks, NADRA verification and due diligence.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="Assets/Pics/d.JPG">
+                <div class="content">
+                    <h3>Integrated Systems</h3>
+                    <p>CCTV, access control, alarms and surveillance systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTS (ADVANCED) -->
+    <section class="clients-advanced">
+        <div class="clients-header">
+            <h2>Trusted By Leading Organizations</h2>
+            <p>We proudly provide security services to reputable companies across Pakistan</p>
+        </div>
+
+
+        <div class="clients-wrapper">
+            <div class="clients-arrow left" onclick="slideClients(-1)"><i class="fa fa-chevron-left"></i></div>
+
+
+            <div class="clients-slider" id="clientsSlider">
+                <div class="clients-track" id="clientsTrack">
+                    <img src="Assets/Clients Logo/1.jpg" alt="Client 1" />
+                    <img src="Assets/Clients Logo/2.png" alt="Client 2" />
+                    <img src="Assets/Clients Logo/3.jpg" alt="Client 3" />
+                    <img src="Assets/Clients Logo/4.jfif" alt="Client 4" />
+                    <img src="Assets/Clients Logo/5.jfif" alt="Client 5" />
+                    <img src="Assets/Clients Logo/6.png" alt="Client 6" />
+                    <img src="Assets/Clients Logo/7.jfif" alt="Client 7" />
+                    <img src="Assets/Clients Logo/8.png" alt="Client 8" />
+                    <img src="Assets/Clients Logo/9.jpeg" alt="Client 9" />
+                    <img src="Assets/Clients Logo/10.jpeg" alt="Client 10" />
+                    <img src="Assets/Clients Logo/11.jpeg" alt="Client 11" />
+                    <img src="Assets/Clients Logo/12.jpeg" alt="Client 12" />
+                    <img src="Assets/Clients Logo/13.jpeg" alt="Client 13" />
+                    <img src="Assets/Clients Logo/14.jpeg" alt="Client 14" />
+                    <img src="Assets/Clients Logo/15.jpeg" alt="Client 15" />
+                    <img src="Assets/Clients Logo/16.jpeg" alt="Client 16" />
+                    <img src="Assets/Clients Logo/17.jpeg" alt="Client 17" />
+                </div>
+            </div>
+
+
+            <div class="clients-arrow right" onclick="slideClients(1)"><i class="fa fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>Al‑Aman Security</h4>
+                <p>Integrated Security Solutions across Pakistan.</p>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <li>Guarding</li>
+                    <li>Verification</li>
+                    <li>Security Systems</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p><i class="fa fa-location-dot"></i> Pakistan</p>
+                <p><i class="fa fa-phone"></i> +92‑XXX‑XXXXXXX</p>
+            </div>
+        </div>
+    </footer>
+
 
 
 

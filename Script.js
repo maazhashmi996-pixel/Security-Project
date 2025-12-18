@@ -53,3 +53,11 @@ leftArrow.addEventListener("click", () => {
 
 /* START */
 startAutoSlide();
+const track = document.getElementById("clientsTrack");
+track.addEventListener("mouseenter", () => track.style.animationPlayState = "paused");
+track.addEventListener("mouseleave", () => track.style.animationPlayState = "running");
+
+function slideClients(dir) {
+    track.style.animationPlayState = "paused";
+    track.scrollLeft += dir * 250;
+}
