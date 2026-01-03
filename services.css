@@ -35,7 +35,7 @@ header {
     display: flex;
     font-size: 24px;
     font-weight: bold;
-    color: #00c6ff;
+    color: #ffffff;
 }
 
 .nav-links a {
@@ -364,6 +364,8 @@ header {
     background: linear-gradient(120deg, transparent, rgba(0, 198, 255, 0.2), transparent);
     opacity: 0;
     transition: 0.4s;
+    pointer-events: none;
+
 }
 
 .service-card:hover::before {
